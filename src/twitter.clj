@@ -134,7 +134,7 @@ take any required and optional arguments and call the associated Twitter method.
    :max-id
    :count
    :page
-   :skip-user
+   :trim-user
    :include-entities]
   (comp #(:content %) status-handler))
 
